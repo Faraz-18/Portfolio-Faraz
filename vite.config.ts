@@ -7,4 +7,5 @@ export default defineConfig({
   optimizeDeps: {
     exclude: ['lucide-react'],
   },
+  base: "/Portfolio-Faraz/",   // 👈 Step 3: Add this line
 });
