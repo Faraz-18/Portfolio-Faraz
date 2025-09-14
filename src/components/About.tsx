@@ -159,7 +159,7 @@ As a GSSoC’25 contributor, I gained hands-on experience in open-source collabo
           <div className="relative">
 
             <img
-              src="\Public\PP.jpg"   
+              src="./Public/PP.jpg"   
               alt="Profile"
               className="rounded-2xl shadow-lg max-w-xs md:max-w-sm lg:max-w-md "
             />
