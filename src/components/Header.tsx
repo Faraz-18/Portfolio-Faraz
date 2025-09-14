@@ -144,7 +144,7 @@ const Header = () => {
                 <button className="w-full bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200 hover:shadow-lg flex items-center justify-center gap-2">
                   <Download size={16} />
                   <a
-                    href="/resume.pdf"
+                    href="./Public/resume.pdf"
                     download="Faraz_Resume.pdf"
                     className="text-white no-underline"
                   >
