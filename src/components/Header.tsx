@@ -81,7 +81,7 @@ const Header = () => {
             <button className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200 hover:shadow-lg hover:scale-105 flex items-center gap-2">
               <Download size={16} />
               <a
-                href="\resume.pdf"
+                href={`${import.meta.env.BASE_URL}resume.pdf`}
                 download="resume.pdf"
                 className="text-white no-underline"
               >
@@ -144,7 +144,7 @@ const Header = () => {
                 <button className="w-full bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200 hover:shadow-lg flex items-center justify-center gap-2">
                   <Download size={16} />
                   <a
-                    href="/resume.pdf"
+                    href={`${import.meta.env.BASE_URL}resume.pdf`}
                     download="Fresume.pdf"
                     className="text-white no-underline"
                   >

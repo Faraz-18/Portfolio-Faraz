@@ -25,7 +25,7 @@ const Projects = () => {
       technologies: ["Core C", "RAYLIB"],
       icon: Globe,
       color: "from-blue-500 to-blue-700",
-      image: "/tic.jpg",
+      image: `${import.meta.env.BASE_URL}tic.jpg`,
       link: "https://github.com/Faraz-18/tactix-game-project",
     },
     {
@@ -38,7 +38,7 @@ const Projects = () => {
       technologies: ["HTML", "CSS", "JAVASCRIPT"],
 
       color: "from-cyan-500 to-cyan-700",
-      image: "/web.jpg",
+      image: `${import.meta.env.BASE_URL}web.jpg`,
       link: "https://github.com/Faraz-18/budget-tracker-website",
     },
     {
@@ -50,7 +50,7 @@ const Projects = () => {
         "Artificial Intelligence and Machine Learning projects developed using Python programming, showcasing my early steps as a freshman exploring innovative technologies. These projects highlight problem-solving skills, analytical thinking, and the ability to apply theoretical knowledge into practical implementations.",
       technologies: ["Python","AI/ML"],
       color: "from-purple-500 to-purple-700",
-      image: "/py.png",
+      image: `${import.meta.env.BASE_URL}py.jpg`,
       link : "https://github.com/Faraz-18/Python-Project",
     },
   ];

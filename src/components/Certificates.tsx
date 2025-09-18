@@ -4,35 +4,35 @@ const certificates = [
   {
     id: 1,
     title: "Amazon Prompt Engineering",
-    image: "/aws.jpg",
+    image: `${import.meta.env.BASE_URL}aws.jpg`,
   },
   {
     id: 2,
     title: "Machine Learning With Python",
-    image: "/python-ml.jpg",
+    image: `${import.meta.env.BASE_URL}python-ml.jpg`,
     link: "https://freecodecamp.org/certification/hisbullah/machine-learning-with-python-v7",
   },
   {
     id: 3,
     title: "HP Effective Leadership",
-    image: "/hp.png",
+    image: `${import.meta.env.BASE_URL}hp.jpg`,
   },
   {
     id: 4,
     title: "Java Programming",
-    image: "/java.png",
+    image: `${import.meta.env.BASE_URL}java.jpg`,
     link: "https://www.coursera.org/account/accomplishments/specialization/certificate/LACZ07MW9B4A",
   },
   {
     id: 5,
     title: "Oracle AI Fundamentals",
-    image: "/oracle.png",
+    image: `${import.meta.env.BASE_URL}oracle.jpg`,
     link: "https://catalog-education.oracle.com/ords/certview/sharebadge?id=6F9442B7F60CB07A0640453039BA5A1F8572F43EE4F886EE68ACE8D6FB739E54",
   },
   {
     id: 6,
     title: "Cisco Python Essentials 2",
-    image: "/cisco-python.jpg",
+    image: `${import.meta.env.BASE_URL}cisco-python.jpg`,
     link: "https://www.credly.com/badges/73cfbe60-9900-4a6b-8e51-324ae7404f53/linked_in?t=t1geb1",
   },
 ];
