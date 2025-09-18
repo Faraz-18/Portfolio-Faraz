@@ -1,11 +1,11 @@
-import React from 'react';
-import { ChevronDown, Code, Palette, Zap } from 'lucide-react';
+import React from "react";
+import { ChevronDown, Code, Palette, Zap } from "lucide-react";
 
 const Hero = () => {
   const scrollToAbout = () => {
-    const element = document.getElementById('about');
+    const element = document.getElementById("about");
     if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
+      element.scrollIntoView({ behavior: "smooth" });
     }
   };
 
@@ -19,7 +19,7 @@ const Hero = () => {
         playsInline
         className="absolute inset-0 w-full h-full object-cover z-0"
       >
-        <source src="./Public/bg.mp4" type="video/mp4" />
+        <source src="/bg.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
 
@@ -27,18 +27,17 @@ const Hero = () => {
       <div className="relative z-10 text-center max-w-4xl mx-auto px-4">
         <div
           className="mb-8 opacity-0 animate-fadeInUp"
-          style={{ animationDelay: '0.2s', animationFillMode: 'forwards' }}
+          style={{ animationDelay: "0.2s", animationFillMode: "forwards" }}
         >
-  
-
-          <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight" >
+          <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
             <span className="block bg-gradient-to-r from-blue-600 to-cyan-600 bg-clip-text text-transparent">
               Syed Faraz Ahmed
             </span>
           </h1>
 
           <p className="text-xl md:text-2xl text-white mb-8 leading-relaxed">
-            BSCS 28’ | GSSoC ’25 Contributor | Oracle AI Foundations (1Z0-1122-25) <br/>C Developer | Python Developer
+            BSCS 28’ | GSSoC ’25 Contributor | Oracle AI Foundations
+            (1Z0-1122-25) <br />C Developer | Python Developer
           </p>
         </div>
       </div>
