@@ -1,5 +1,5 @@
 import React from "react";
-import { ChevronDown, Code, Palette, Zap } from "lucide-react";
+import { ChevronDown } from "lucide-react";
 
 const Hero = () => {
   const scrollToAbout = () => {
@@ -10,18 +10,16 @@ const Hero = () => {
   };
 
   return (
-    <section className="relative h-screen flex items-center justify-center overflow-hidden">
-      {/* 🔥 Video Background (drop your video into /public and update src) */}
-      <video
-        autoPlay
-        loop
-        muted
-        playsInline
-        className="absolute inset-0 w-full h-full object-cover z-0"
-      >
-        <source src={`${import.meta.env.BASE_URL}bg.mp4`} type="video/mp4" />
-        Your browser does not support the video tag.
-      </video>
+    <section
+      className="relative h-screen flex items-center justify-center overflow-hidden"
+      style={{
+        backgroundImage: `url(${import.meta.env.BASE_URL}bg.jpg)`,
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+      }}
+    >
+      {/* Overlay (optional, for better text readability) */}
+      <div className="absolute inset-0 bg-black/50 z-0"></div>
 
       {/* Content */}
       <div className="relative z-10 text-center max-w-4xl mx-auto px-4">
@@ -36,8 +34,8 @@ const Hero = () => {
           </h1>
 
           <p className="text-xl md:text-2xl text-white mb-8 leading-relaxed">
-            BSCS 28’ | GSSoC ’25 Contributor | Oracle AI Foundations
-            (1Z0-1122-25) <br />C Developer | Python Developer
+            BSCS 28’ | GSSoC ’25 Contributor | Oracle AI Foundations (1Z0-1122-25) <br />
+            C Developer | Python Developer
           </p>
         </div>
       </div>
